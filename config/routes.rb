@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
-  resources "arts"
+  resources "arts" do
+    resources "coms"
+  end
   root "arts#index"
 end

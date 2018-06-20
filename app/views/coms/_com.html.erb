@@ -1,0 +1,15 @@
+<p>
+  <strong>Comment:</strong>
+  <%= com.com %>
+</p>
+ 
+<p>
+  <strong>Message:</strong>
+  <%= com.message %>
+</p>
+
+<p>
+  <%= link_to 'Destroy Comment', [com.art, com],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>
