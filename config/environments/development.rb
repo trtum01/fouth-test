@@ -6,6 +6,8 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
+  config.secret_key = '23ca7e6c70263a68603192146494bbb600384b22d0d8d8140153be4199dc90694c001c9049c64d4ff02d5a080ec9e8673dabc559a6afdc906a48cefccc09da2e'
+
   config.cache_classes = false
 
   # Do not eager load code on boot.
